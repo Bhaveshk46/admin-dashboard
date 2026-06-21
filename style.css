@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.sideBar{
+    background-color:#1992D4;
+    height: 100vh;
+}
+
+.dbLogo{
+    height: 35px;
+    fill: white;
+    padding-right: 5px;
+    padding-left: 15px;
+}
+
+.navLogo{
+    fill: white;
+    height: 20px;
+    
+}
+.menu p{
+    display: flex;
+        font-weight: bold;
+    color: white;
+}
+
+.dashboard p{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.navLogo{
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.dashboardNav{
+    padding-top: 20px;
+}
+
+.menu{
+    padding-top: 10px;
+}
+
+.list2{
+    padding-top: 20px;
+}
