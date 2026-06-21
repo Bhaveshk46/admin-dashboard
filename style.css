@@ -4,6 +4,9 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    background-color: #E2E8F0;
 }
 .sideBar{
     background-color:#1992D4;
@@ -52,4 +55,93 @@ body{
 
 .list2{
     padding-top: 20px;
+}
+
+.rightIcon{
+    height: 20px;
+}
+
+#search{
+    border-radius: 10px;
+    background-color: #E2E8F0;
+    border: none;
+    width: 60%;
+    height: 25px;
+
+}
+
+#searchBar{
+    padding-left: 30px;
+
+}
+
+#searchBar p{
+    display: flex;
+    align-items: center;
+}
+
+#searchBar svg{
+    padding-right: 10px;
+}
+
+.profiles{
+    height: 35px;
+}
+
+#notificationProfile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header1{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.welcome{
+    display: grid;
+    grid-template-columns: 40px 200px;
+    gap: 35px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.profileH2{
+    height: 60px;
+}
+
+.greeting{
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.userName{
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.buttons button{
+    background-color: #1992D4;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.buttons{
+    padding-left: 40px;
+}
+
+.header2{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding-top: 10px;
+}
+
+.header{
+    background-color: white;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 6px 12 px #7a7d80;
 }
