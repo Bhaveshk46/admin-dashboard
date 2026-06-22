@@ -235,3 +235,46 @@ body{
     padding-bottom: 10px;
     font-weight: 600;
 }
+
+.announcementAndTrending{
+    display: grid;
+    grid-template-rows: 1fr 230px;
+    gap: 20px;
+}
+
+.p1,.p2,.p3,.p4{
+    display: flex;
+    align-items: center;
+}
+
+.profileName{
+    margin: 0;
+    font-size: x-small;
+}
+
+.profileProject{
+    margin: 0;
+    font-size: xx-small;
+    color: #A5A5A5;
+}
+
+.TrendingCard{
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px 0.1px #b9bcc0;
+    height: 150px;
+}
+
+.TrendingProfile{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trendingHeading{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
